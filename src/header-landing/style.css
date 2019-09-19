@@ -1,0 +1,286 @@
+.header-container {
+    width: 100%;
+    height: auto;
+  }
+  .parent-container {
+      width:100%;
+  }
+  .header-container-green {
+    background-color: #00763b;
+    width: 100%;
+    height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .choose_location_select {
+    width: 350px;
+    margin: 0 auto;
+}
+
+
+.create-account-text {
+    color: #4a4a4a;
+    font-family: Roboto;
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+    width: 325px;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 21px;
+    text-align: center;
+}
+  .header-container-modri {
+    background-color: #498fcd;
+    width: 100%;
+    height: 400px;
+  }
+  .pac-container {
+    position: relative;
+    z-index: 1200;
+}
+  .header-nav {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 95px;
+    justify-content: space-between; /*not in db*/
+  }
+  .login-btn > img {
+    height: 18px;
+    width: 18px;
+  }
+  .header-logo {
+    padding-top: 10px;
+  }
+  .switch-container-landing {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .store-switch-landing {
+    display: flex;
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 29.5px;
+    align-self: center;
+  }
+  
+  .white-landing {
+    background: white;
+    border-radius: 29.5px;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+  }
+  .normal-landing {
+    padding: 5px;
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .login-btn {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    height: 54px;
+    width: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .login-btn-title {
+    padding-left: 15px;
+    color: white;
+    padding-top: 2px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .header-cosmetic-img {
+    height: 550px !important;
+    margin-top: 0px !important;
+  }
+  .header-img-background {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+  }
+  .header-img-background > img {
+    width: 1300px;
+    margin: auto;
+  }
+  .header-address-container-green {
+    margin: 0 auto;
+    width: 700px;
+    max-height: 550px;
+    z-index: 1200;
+    background: white;
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 3px;
+    margin-top: -250px;
+    text-align: center;
+    border-bottom: 5px solid#00763B;
+  }
+  .header-address-container-modri {
+    width: 600px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-bottom: 5px solid #498fcd;
+  }
+  .address-logo {
+    margin-top: 20px;
+  }
+  .address-title {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .address-explain {
+    color: #4a4a4a;
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  ::placeholder {
+    color: #989898;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .address-input {
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 350px;
+  }
+  .address-submit {
+    height: 51px;
+    border-radius: 3px;
+    background-color: #ffda1a;
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    cursor: pointer;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+  .address-submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .adress-login {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+  }
+  .address-login-link-green {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: underline;
+    color: #00763b;
+    cursor: pointer;
+  }
+  .address-login-link-modri {
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: underline;
+    color: #498fcd;
+    cursor: pointer;
+  }
+  .autocomplete-dropdown-container {
+    border-bottom: honeydew;
+    border-left: honeydew;
+    border-right: honeydew;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 2px 2px;
+  }
+  .suggestion-item {
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .dropdown-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+  }
+  .location-search-input {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border: honeydew;
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+  }
+  .location-search-input {
+    width: 350px;
+  }
+  .header_no_stores_title {
+    margin-top: 30px;
+    color: #00763b;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .header_no_stores_txt_bigger {
+    margin-top: 30px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .header_no_stores_txt_smaller {
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .header-address-container-green input {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  .header-address-container-green input::-moz-placeholder {
+    /* Firefox 19+ */
+    line-height: 35px;
+    font-size: 14px;
+  }
+  .header-address-container-green input::-moz-placeholder {
+    /* Firefox 19+ */
+    line-height: 35px;
+    font-size: 14px;
+  }
+  
+  
