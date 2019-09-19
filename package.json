@@ -5,7 +5,6 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-json-schema": "https://github.com/richbai90/react-json-schema.git#master",
     "react-scripts": "3.1.1",
     "react-select": "^2.4.3",
     "react-load-script": "0.0.6"
