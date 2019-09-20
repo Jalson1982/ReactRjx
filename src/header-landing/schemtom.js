@@ -239,7 +239,7 @@ class LandingPageHeaderSchema extends Component {
       })
       view.setVariablesMap({
         dynamicVar:[{name:this.state.storeExist}],
-        kita: [1]
+        kit: [1]
       })
       view2.setComponentMap({divComponent, imageComponent});
       view3.setComponentMap({divComponent, imageComponent, inputComponent, selecComponent,conditionalComponent,fragmentComponent});
