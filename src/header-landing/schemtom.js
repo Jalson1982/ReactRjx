@@ -85,7 +85,6 @@ class LandingPageHeaderSchema extends Component {
   };
 
   render() {
-
     const schema1 = {
         "component": "divComponent",
         "className": "header-container",
@@ -239,7 +238,6 @@ class LandingPageHeaderSchema extends Component {
       })
       view.setVariablesMap({
         dynamicVar:[{name:this.state.storeExist}],
-        kita: [1]
       })
       view2.setComponentMap({divComponent, imageComponent});
       view3.setComponentMap({divComponent, imageComponent, inputComponent, selecComponent,conditionalComponent,fragmentComponent});
